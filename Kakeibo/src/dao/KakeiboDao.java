@@ -12,7 +12,7 @@ public class KakeiboDao {
 		Connection con = null;
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
-		String pass = null;
+		String lpass = null;
 		try {
 			// ②JDBCドライバをロードする
 			Class.forName("com.mysql.jdbc.Driver");
@@ -32,9 +32,9 @@ public class KakeiboDao {
 			rs = pstmt.executeQuery();
 
 			// ⑦実行結果を含んだインスタンスからデータを取り出す
-			while(rs.next())	{
-			pass = rs.getString("password");
-			}
+			rs.next();
+			lpass = rs.getString("password");
+
 		} catch (ClassNotFoundException e) {
 			System.out.println("JDBCドライバが見つかりません。");
 			e.printStackTrace();
@@ -69,7 +69,7 @@ public class KakeiboDao {
 			}
 
 		}
-		return pass;
+		return lpass;
 	}
 
 }

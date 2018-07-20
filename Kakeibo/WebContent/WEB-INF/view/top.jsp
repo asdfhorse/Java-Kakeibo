@@ -8,7 +8,7 @@
 <title>ログイン画面</title>
 </head>
 <body>
-	<form action="/Kakeibo/LoginCheck">
+	<form action="/Kakeibo/LoginCheck" method="post">
 	ユーザー名<input type="text" name="name"><br>
 	Password<input type="password" name="pass">
 	<input type="submit" value="ログイン"></form>
