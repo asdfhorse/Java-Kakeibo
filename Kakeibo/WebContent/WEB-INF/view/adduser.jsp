@@ -7,7 +7,7 @@
 <title>新規ユーザー登録</title>
 </head>
 <body>
-	<form action="/Kakeibo/LoginCheck">
+	<form action="/Kakeibo/AddCheck">
 	ユーザー名<input type="text" name="user"><br>
 	Password<input type="password" name="apass">
 	<input type="submit" value="登録">

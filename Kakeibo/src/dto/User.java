@@ -1,15 +1,14 @@
 package dto;
 
-public class UserDto {
+public class User {
 	private int id;
 	private String name;
 	private String password;
-	private int money;
 
-	public UserDto(){
+	public User(){
 
 	}
-	public UserDto(int id, String name,String password,int money){
+	public User(int id, String name,String password,int money){
 		this.id = id;
 		this.name = name;
 		this.password = password;
@@ -32,11 +31,6 @@ public class UserDto {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public int getMoney() {
-		return money;
-	}
-	public void setMoney(int money) {
-		this.money = money;
-	}
+
 
 }
