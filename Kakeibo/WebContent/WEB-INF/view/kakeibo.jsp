@@ -4,11 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>ログイン管理画面</title>
+<title>家計簿システム</title>
 </head>
 <body>
-<% request.setCharacterEncoding("UTF-8"); %>
-<h1>ログインに成功しました！</h1>
-<a href="/Kakeibo/Kakeibo"></a>
+<h1>家計簿</h1>
 </body>
 </html>
