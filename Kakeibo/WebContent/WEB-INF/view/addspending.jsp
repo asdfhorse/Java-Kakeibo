@@ -4,11 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>新規登録管理</title>
+<title>支出・収入登録管理画面</title>
 </head>
 <body>
-<h1>登録が完了しました</h1>
-<a href="/Kakeibo/Top">ログイン画面に戻る</a>
-
+<h1>登録が完了しました。</h1>
+<a href="/Kakeibo/Kakeibo">メニューに戻る</a>
 </body>
 </html>
